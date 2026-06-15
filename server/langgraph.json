@@ -1,0 +1,15 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./src/agent/graph.py:graph",
+    "assistant": "./src/agent/graph.py:assistant_graph",
+    "rag_query": "./src/agent/graph.py:rag_query_graph",
+    "rag_ingest": "./src/agent/graph.py:rag_ingest_graph",
+    "rag_delete": "./src/agent/graph.py:rag_delete_graph",
+    "rag_reindex": "./src/agent/graph.py:rag_reindex_graph",
+    "rag_admin": "./src/agent/graph.py:rag_admin_graph"
+  },
+  "env": ".env",
+  "image_distro": "wolfi"
+}
